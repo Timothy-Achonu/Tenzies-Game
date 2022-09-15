@@ -114,8 +114,8 @@ span {
       gap: 20px;
     }
     .die-face {
-      height: 30px;
-      width: 30px;
+      height: 40px;
+      width: 40px;
       box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
       border-radius: 10px;
       display: flex;
@@ -126,6 +126,28 @@ span {
     }
     .die-num {
       font-size: 1rem;
+    }
+    .die-dots {
+      display: flex;
+      height: 40px;
+      width: 40px;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      cursor: pointer;
+      /* background-color: yellow; */
+    }
+    span {
+      background-color: black;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      margin: 0 2px;
+      /* font-size: 0.4rem; */
+      /* 
+       Why is there space between them vertically
+      */
     }
 
 }

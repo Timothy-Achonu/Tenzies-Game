@@ -11,7 +11,7 @@ export default function Die(props) {
 
     const spanElements = []
     for(let i=0;i<props.value;i++) {
-        spanElements.push(<span></span>)
+        spanElements.push(<span key={i}></span>)
     }
     // console.log(spanElements)
     return (
