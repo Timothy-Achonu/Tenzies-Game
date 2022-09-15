@@ -149,5 +149,9 @@ span {
        Why is there space between them vertically
       */
     }
+    .roll-dice {
+      background-color: #000;
+      color: white;
+    }
 
 }

@@ -11,11 +11,9 @@ export default function App() {
      2) Track the time it took to win the game
      3) Save your best time and lowest number of Rolls to local storage
      4) CSS: put real dots on the dice.
-     5) Change the top text to "You win" when the game is won.
-     6) Change the interface as well to display the stats of the
-        game, stats like number of Rolls, time-taken and also display
-        the best record of number of Rolls and time-taken from local
-        storage.
+     5) display the stats of the game, stats like number of Rolls,
+        time-taken and also display the best record of number of Rolls
+        and time-taken from local storage.
     */
     const [dice, setDice] = React.useState(allNewDice())
     const [tenzies, setTenzies] = React.useState(false)
